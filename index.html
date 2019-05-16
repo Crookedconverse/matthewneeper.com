@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <!-- basic.html -->
+    <title>matthewneeper.com</title>
+    <meta name="Description" content="Matthew Neeper's Website. Email matthewneeper10@gmail.com">
+      <meta charset = "UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" description = "matthewneeper.com"/>
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <link href="https://fonts.googleapis.com/css?family=Poppins:300,500|Ubuntu" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <body>
+    <a id="topOfPage"></a>
+      <div class="container">
+        <div class="header">
+          <div class="contactMe">
+            <a href="https://github.com/Crookedconverse"><i class="fab fa-github" id="github"></i></a>
+            <a href="https://www.linkedin.com/in/matthewneeper/"><i class="fab fa-linkedin" id="linkedin"></i></a>
+          </div>
+<!--   SECTION IN PROGRESS -->
+       <nav id="nav">
+            <ul>
+              <li class="home"><a href="#topOfPage" id="active">Home</a></li>
+              <li class="projects"><a href="#section2" id="inactive">Projects</a></li>
+          </ul>
+          </nav>
+        </div>
+
+<!-- section 1 -->
+          <div class="name">
+            <h1>Matthew Neeper</h1>
+            <h3 class="email">matthewneeper10@gmail.com</h3>
+            <button id="contact" onclick="location.href='mailto:matthewneeper10@gmail.com'">Contact Me</button>
+          </div>
+
+<!-- section 2 -->
+        <div id="portfolio">
+        <a id="section2"></a>
+          <form action="" id="userForm">
+            <script src="js/email.js" ></script>
+            <input type="text" autocomplete="off"  name="firstName" id="firstName" value="" placeholder="First Name" required>
+            <input type="text" autocomplete="off" name="lastName" id="lastName" value="" placeholder="Last Name" required>
+            <button type="submit" value="Submit" name="button" id="submit">Submit</button>
+          </form>
+      </div>
+      <div id="likeButton"></div>
+      <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+      <!-- Load our React component. -->
+      <script src="js/like_button.js"></script>
+
+  </body>
+</html>

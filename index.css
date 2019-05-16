@@ -1,0 +1,173 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #FFFEFC; }
+
+h1 {
+  margin: 0; }
+
+.header {
+  width: 100%;
+  float: right;
+  position: fixed;
+  background-color: #2E3233;
+  z-index: 10; }
+
+.contactMe {
+  float: left;
+  text-align: center;
+  height: auto;
+  margin: 5px;
+  cursor: pointer; }
+
+#github {
+  margin: 10px 0 0 10px;
+  font-size: 2em;
+  color: #CAF200; }
+
+#linkedin {
+  margin: 10px 0 0 5px;
+  font-size: 2em;
+  color: #CAF200; }
+
+#nav {
+  float: right;
+  font-size: 18px;
+  letter-spacing: .15rem; }
+
+#nav ul li {
+  display: inline;
+  margin-right: 2em; }
+
+#active {
+  color: #CAF200;
+  text-decoration: none; }
+
+#inactive {
+  color: #E2E3DF;
+  text-decoration: none; }
+
+.name {
+  -webkit-transform: translateY(3em);
+  -ms-transform: translateY(3em);
+  transform: translateY(3em);
+  display: block;
+  float: left;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  font-family: Poppins;
+  color: #515B5E;
+  margin: 0; }
+
+.email {
+  margin: 0;
+  font-size: 1.75rem; }
+
+#contact {
+  margin-top: 4rem;
+  padding: 15px 20px;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  border-width: medium;
+  border-color: #515B5E;
+  color: #515B5E;
+  text-transform: uppercase;
+  outline: none;
+  -webkit-transition: ease .2s;
+  -o-transition: ease .2s;
+  transition: ease .2s;
+  -webkit-box-shadow: 2px 5px;
+  box-shadow: 2px 5px;
+  cursor: pointer; }
+
+#contact:hover {
+  -webkit-transition: ease-in .2s;
+  -o-transition: ease-in .2s;
+  transition: ease-in .2s;
+  border-color: #9876AD;
+  color: #9876AD; }
+
+#portfolio {
+  -webkit-transform: translate(20em, 10em);
+  -ms-transform: translate(20em, 10em);
+  transform: translate(20em, 10em);
+  clear: left;
+  width: 160px;
+  height: 125px; }
+  #portfolio #firstName {
+    float: left;
+    border-radius: 15px;
+    border-style: solid;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 5px 0;
+    background-color: #CAF200;
+    outline: none; }
+  #portfolio #lastName {
+    float: left;
+    border-radius: 15px;
+    border-style: solid;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 5px 0;
+    background-color: #CAF200;
+    outline: none; }
+  #portfolio #submit {
+    width: 150px;
+    height: 25px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    outline: none;
+    background-color: #CAF200; }
+  #portfolio #submit:active {
+    background-color: #9876AD;
+    color: white; }
+
+@media only screen and (max-width: 835px) {
+  h1 {
+    font-size: 7vw;
+    margin: 0; }
+  #contact {
+    margin-top: 30px; }
+  .name {
+    -webkit-transform: translateY(3em);
+    -ms-transform: translateY(3em);
+    transform: translateY(3em);
+    display: block;
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Poppins;
+    color: #515B5E; }
+  .email {
+    font-size: 3.25vw;
+    margin: 0; } }
+
+@media only screen and (max-width: 580px) {
+  h1 {
+    font-size: 7vw;
+    margin: 30px 0 0 0; }
+  .name {
+    -webkit-transform: translateY(1.5em);
+    -ms-transform: translateY(1.5em);
+    transform: translateY(1.5em);
+    font-size: 2.6rem; }
+  .email {
+    margin: 0 0 5px 0;
+    font-size: .9rem; }
+  #contact {
+    padding: 10px 15px;
+    font-size: 1rem;
+    -webkit-box-shadow: 2px 2px;
+    box-shadow: 2px 2px; } }
